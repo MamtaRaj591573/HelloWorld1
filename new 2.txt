@@ -1,0 +1,505 @@
+
+<name>impact</name>
+<internalType>integer</internalType>
+<label>Impact</label>
+<exampleValue/>
+</result>
+<result>
+<name>active</name>
+<internalType>boolean</internalType>
+<label>Active</label>
+<exampleValue>true</exampleValue>
+</result>
+<result>
+<name>work_notes_list</name>
+<internalType>glide_list</internalType>
+<label>Work notes list</label>
+<exampleValue>6816f79cc0a8016401c5a33be04be441</exampleValue>
+</result>
+<result>
+<name>priority</name>
+<internalType>integer</internalType>
+<label>Priority</label>
+<exampleValue/>
+</result>
+<result>
+<name>sys_domain_path</name>
+<internalType>domain_path</internalType>
+<label>Domain Path</label>
+<exampleValue/>
+</result>
+<result>
+<name>business_duration</name>
+<internalType>glide_duration</internalType>
+<label>Business duration</label>
+<exampleValue>1970-04-02 18:26:17</exampleValue>
+</result>
+<result>
+<name>group_list</name>
+<internalType>glide_list</internalType>
+<label>Group list</label>
+<exampleValue>6816f79cc0a8016401c5a33be04be441</exampleValue>
+</result>
+<result>
+<name>approval_set</name>
+<internalType>glide_date_time</internalType>
+<label>Approval set</label>
+<exampleValue>2014-11-12 04:51:19</exampleValue>
+</result>
+<result>
+<name>short_description</name>
+<internalType>string</internalType>
+<label>Short description</label>
+<exampleValue/>
+</result>
+<result>
+<name>correlation_display</name>
+<internalType>string</internalType>
+<label>Correlation display</label>
+<exampleValue/>
+</result>
+<result>
+<name>delivery_task</name>
+<internalType>reference</internalType>
+<label>Delivery task</label>
+<exampleValue>9666e0c3c611227c017f673bcebef646</exampleValue>
+</result>
+<result>
+<name>work_start</name>
+<internalType>glide_date_time</internalType>
+<label>Actual start</label>
+<exampleValue>2014-11-12 04:51:19</exampleValue>
+</result>
+<result>
+<name>additional_assignee_list</name>
+<internalType>glide_list</internalType>
+<label>Additional assignee list</label>
+<exampleValue>6816f79cc0a8016401c5a33be04be441</exampleValue>
+</result>
+<result>
+<name>u_user_confirm</name>
+<internalType>boolean</internalType>
+<label>User Closure Confirmation</label>
+<exampleValue>true</exampleValue>
+</result>
+<result>
+<name>notify</name>
+<internalType>integer</internalType>
+<label>Notify</label>
+<exampleValue/>
+</result>
+<result>
+<name>sys_class_name</name>
+<internalType>sys_class_name</internalType>
+<label>Task type</label>
+<exampleValue/>
+</result>
+<result>
+<name>service_offering</name>
+<internalType>reference</internalType>
+<label>Service offering</label>
+<exampleValue>9666e0c3c611227c017f673bcebef646</exampleValue>
+</result>
+<result>
+<name>closed_by</name>
+<internalType>reference</internalType>
+<label>Closed by</label>
+<exampleValue>9666e0c3c611227c017f673bcebef646</exampleValue>
+</result>
+<result>
+<name>follow_up</name>
+<internalType>glide_date_time</internalType>
+<label>Follow up</label>
+<exampleValue>2014-11-12 04:51:19</exampleValue>
+</result>
+<result>
+<name>parent_incident</name>
+<internalType>reference</internalType>
+<label>Parent Incident</label>
+<exampleValue>9666e0c3c611227c017f673bcebef646</exampleValue>
+</result>
+<result>
+<name>u_elementmanageralertid</name>
+<internalType>string</internalType>
+<label>ElementManagerAlertID</label>
+<exampleValue/>
+</result>
+<result>
+<name>reopened_by</name>
+<internalType>reference</internalType>
+<label>Last reopened by</label>
+<exampleValue>9666e0c3c611227c017f673bcebef646</exampleValue>
+</result>
+<result>
+<name>reassignment_count</name>
+<internalType>integer</internalType>
+<label>Reassignment count</label>
+<exampleValue/>
+</result>
+<result>
+<name>assigned_to</name>
+<internalType>reference</internalType>
+<label>Assigned to</label>
+<exampleValue>9666e0c3c611227c017f673bcebef646</exampleValue>
+</result>
+<result>
+<name>sla_due</name>
+<internalType>due_date</internalType>
+<label>SLA due</label>
+<exampleValue>1970-04-02 18:26:17</exampleValue>
+</result>
+<result>
+<name>comments_and_work_notes</name>
+<internalType>journal_list</internalType>
+<label>Comments and Work notes</label>
+<exampleValue/>
+</result>
+<result>
+<name>escalation</name>
+<internalType>integer</internalType>
+<label>Escalation</label>
+<exampleValue/>
+</result>
+<result>
+<name>upon_approval</name>
+<internalType>string</internalType>
+<label>Upon approval</label>
+<exampleValue/>
+</result>
+<result>
+<name>u_ey_release</name>
+<internalType>reference</internalType>
+<label>Customer Release</label>
+<exampleValue>9666e0c3c611227c017f673bcebef646</exampleValue>
+</result>
+<result>
+<name>correlation_id</name>
+<internalType>string</internalType>
+<label>Correlation ID</label>
+<exampleValue/>
+</result>
+<result>
+<name>made_sla</name>
+<internalType>boolean</internalType>
+<label>Made SLA</label>
+<exampleValue>true</exampleValue>
+</result>
+<result>
+<name>u_update_set</name>
+<internalType>reference</internalType>
+<label>Update Set</label>
+<exampleValue>9666e0c3c611227c017f673bcebef646</exampleValue>
+</result>
+<result>
+<name>u_major_incident</name>
+<internalType>boolean</internalType>
+<label>Major Incident</label>
+<exampleValue>true</exampleValue>
+</result>
+<result>
+<name>child_incidents</name>
+<internalType>integer</internalType>
+<label>Child Incidents</label>
+<exampleValue/>
+</result>
+<result>
+<name>u_security_incident</name>
+<internalType>boolean</internalType>
+<label>Security Incident</label>
+<exampleValue>true</exampleValue>
+</result>
+<result>
+<name>resolved_by</name>
+<internalType>reference</internalType>
+<label>Resolved by</label>
+<exampleValue>9666e0c3c611227c017f673bcebef646</exampleValue>
+</result>
+<result>
+<name>sys_updated_by</name>
+<internalType>string</internalType>
+<label>Updated by</label>
+<exampleValue/>
+</result>
+<result>
+<name>u_follow_up_by_app_team</name>
+<internalType>integer</internalType>
+<label>Follow up by App Team</label>
+<exampleValue/>
+</result>
+<result>
+<name>opened_by</name>
+<internalType>reference</internalType>
+<label>Opened by</label>
+<exampleValue>9666e0c3c611227c017f673bcebef646</exampleValue>
+</result>
+<result>
+<name>user_input</name>
+<internalType>user_input</internalType>
+<label>User input</label>
+<exampleValue/>
+</result>
+<result>
+<name>sys_created_on</name>
+<internalType>glide_date_time</internalType>
+<label>Created</label>
+<exampleValue>2014-11-12 04:51:19</exampleValue>
+</result>
+<result>
+<name>sys_domain</name>
+<internalType>domain_id</internalType>
+<label>Domain</label>
+<exampleValue>global</exampleValue>
+</result>
+<result>
+<name>calendar_stc</name>
+<internalType>integer</internalType>
+<label>Resolve time</label>
+<exampleValue/>
+</result>
+<result>
+<name>closed_at</name>
+<internalType>glide_date_time</internalType>
+<label>Closed</label>
+<exampleValue>2014-11-12 04:51:19</exampleValue>
+</result>
+<result>
+<name>u_pending_reason</name>
+<internalType>choice</internalType>
+<label>Pending Reason</label>
+<exampleValue/>
+</result>
+<result>
+<name>business_service</name>
+<internalType>reference</internalType>
+<label>Business Line</label>
+<exampleValue>9666e0c3c611227c017f673bcebef646</exampleValue>
+</result>
+<result>
+<name>u_elementmanagereventid</name>
+<internalType>string</internalType>
+<label>ElementManagerEventID</label>
+<exampleValue/>
+</result>
+<result>
+<name>rfc</name>
+<internalType>reference</internalType>
+<label>Change Request</label>
+<exampleValue>9666e0c3c611227c017f673bcebef646</exampleValue>
+</result>
+<result>
+<name>time_worked</name>
+<internalType>timer</internalType>
+<label>Time worked</label>
+<exampleValue/>
+</result>
+<result>
+<name>expected_start</name>
+<internalType>glide_date_time</internalType>
+<label>Expected start</label>
+<exampleValue>2014-11-12 04:51:19</exampleValue>
+</result>
+<result>
+<name>opened_at</name>
+<internalType>glide_date_time</internalType>
+<label>Opened</label>
+<exampleValue>2014-11-12 04:51:19</exampleValue>
+</result>
+<result>
+<name>work_end</name>
+<internalType>glide_date_time</internalType>
+<label>Actual end</label>
+<exampleValue>2014-11-12 04:51:19</exampleValue>
+</result>
+<result>
+<name>resolved_at</name>
+<internalType>glide_date_time</internalType>
+<label>Resolved</label>
+<exampleValue>2014-11-12 04:51:19</exampleValue>
+</result>
+<result>
+<name>reopened_time</name>
+<internalType>glide_date_time</internalType>
+<label>Last reopened at</label>
+<exampleValue>2014-11-12 04:51:19</exampleValue>
+</result>
+<result>
+<name>caller_id</name>
+<internalType>reference</internalType>
+<label>Caller</label>
+<exampleValue>9666e0c3c611227c017f673bcebef646</exampleValue>
+</result>
+<result>
+<name>subcategory</name>
+<internalType>string</internalType>
+<label>Subcategory</label>
+<exampleValue/>
+</result>
+<result>
+<name>work_notes</name>
+<internalType>journal_input</internalType>
+<label>Work notes</label>
+<exampleValue/>
+</result>
+<result>
+<name>u_follow_up_sd</name>
+<internalType>integer</internalType>
+<label>Follow up by Support Team</label>
+<exampleValue/>
+</result>
+<result>
+<name>close_code</name>
+<internalType>string</internalType>
+<label>Close code</label>
+<exampleValue/>
+</result>
+<result>
+<name>assignment_group</name>
+<internalType>reference</internalType>
+<label>Assignment group</label>
+<exampleValue>9666e0c3c611227c017f673bcebef646</exampleValue>
+</result>
+<result>
+<name>u_state_changed</name>
+<internalType>boolean</internalType>
+<label>State Changed</label>
+<exampleValue>true</exampleValue>
+</result>
+<result>
+<name>business_stc</name>
+<internalType>integer</internalType>
+<label>Business resolve time</label>
+<exampleValue/>
+</result>
+<result>
+<name>description</name>
+<internalType>string</internalType>
+<label>Description</label>
+<exampleValue/>
+</result>
+<result>
+<name>calendar_duration</name>
+<internalType>glide_duration</internalType>
+<label>Duration</label>
+<exampleValue>1970-04-02 18:26:17</exampleValue>
+</result>
+<result>
+<name>close_notes</name>
+<internalType>string</internalType>
+<label>Close notes</label>
+<exampleValue/>
+</result>
+<result>
+<name>sys_id</name>
+<internalType>GUID</internalType>
+<label>Sys ID</label>
+<exampleValue/>
+</result>
+<result>
+<name>contact_type</name>
+<internalType>string</internalType>
+<label>Contact type</label>
+<exampleValue/>
+</result>
+<result>
+<name>incident_state</name>
+<internalType>integer</internalType>
+<label>Incident state</label>
+<exampleValue/>
+</result>
+<result>
+<name>urgency</name>
+<internalType>integer</internalType>
+<label>Urgency</label>
+<exampleValue/>
+</result>
+<result>
+<name>problem_id</name>
+<internalType>reference</internalType>
+<label>Problem</label>
+<exampleValue>9666e0c3c611227c017f673bcebef646</exampleValue>
+</result>
+<result>
+<name>u_follow_up_user</name>
+<internalType>integer</internalType>
+<label>Follow up by User</label>
+<exampleValue/>
+</result>
+<result>
+<name>company</name>
+<internalType>reference</internalType>
+<label>Company</label>
+<exampleValue>9666e0c3c611227c017f673bcebef646</exampleValue>
+</result>
+<result>
+<name>activity_due</name>
+<internalType>due_date</internalType>
+<label>Activity due</label>
+<exampleValue>1970-04-02 18:26:17</exampleValue>
+</result>
+<result>
+<name>severity</name>
+<internalType>integer</internalType>
+<label>Severity</label>
+<exampleValue/>
+</result>
+<result>
+<name>comments</name>
+<internalType>journal_input</internalType>
+<label>Additional comments</label>
+<exampleValue/>
+</result>
+<result>
+<name>u_lost_stolen_asset</name>
+<internalType>boolean</internalType>
+<label>Lost / Stolen Asset</label>
+<exampleValue>true</exampleValue>
+</result>
+<result>
+<name>approval</name>
+<internalType>string</internalType>
+<label>Approval</label>
+<exampleValue/>
+</result>
+<result>
+<name>due_date</name>
+<internalType>glide_date_time</internalType>
+<label>Due Date</label>
+<exampleValue>2014-11-12 04:51:19</exampleValue>
+</result>
+<result>
+<name>sys_mod_count</name>
+<internalType>integer</internalType>
+<label>Updates</label>
+<exampleValue/>
+</result>
+<result>
+<name>reopen_count</name>
+<internalType>integer</internalType>
+<label>Reopen count</label>
+<exampleValue/>
+</result>
+<result>
+<name>sys_tags</name>
+<internalType>related_tags</internalType>
+<label>Tags</label>
+<exampleValue/>
+</result>
+<result>
+<name>u_knowledge_article</name>
+<internalType>html</internalType>
+<label>Knowledge Article</label>
+<exampleValue/>
+</result>
+<result>
+<name>location</name>
+<internalType>reference</internalType>
+<label>Location</label>
+<exampleValue>9666e0c3c611227c017f673bcebef646</exampleValue>
+</result>
+<result>
+<name>category</name>
+<internalType>string</internalType>
+<label>Category</label>
+<exampleValue/>
+</result>
+</response>
